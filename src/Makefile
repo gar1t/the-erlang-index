@@ -1,0 +1,2 @@
+app:
+	cd ..; make app

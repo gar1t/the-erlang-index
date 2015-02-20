@@ -1,0 +1,10 @@
+%%% -*-erlang-*-
+{application, index,
+ [{description, "The Erlang package index"},
+  {vsn, "0.0.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib, sasl]},
+  {mod, {e2_application, [index_app]}},
+  {env, []}
+ ]}.
